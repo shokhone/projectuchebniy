@@ -46,4 +46,4 @@
 | **Больничный** | Оформление листка нетрудоспособности |
 | **Формирование отчётности** | Генерация внутренних и внешних отчётов |
 
-[text](http://sobirjonov.temp.swtest.ru/electronic-card)
+[сайт electronic-card](http://sobirjonov.temp.swtest.ru/electronic-card)
