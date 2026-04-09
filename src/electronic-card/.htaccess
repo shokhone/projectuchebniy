@@ -1,0 +1,15 @@
+# .htaccess
+Options -Indexes
+DirectoryIndex index.php
+
+# Защита папок
+<FilesMatch "\.(sql|log|ini)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# ЧПУ (опционально)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z_]+)$ modules/$1.php [L]
